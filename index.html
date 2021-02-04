@@ -10,6 +10,30 @@
 </head>
 
 <body>
-    <div class="currencies"></div>
+    <header>
+      <h1>Currency Converter</h1>
+    </header>
+
+    <div class="container">
+
+      <div class="dropdowns">
+        Convert from <select id="currency-a-dropdown" name="currency-a"></select> to <select id="currency-b-dropdown" name="currency-b"></select>
+      </div>
+
+      <div class="currencies">
+        <div class="inputs">
+          <input name="amount" type="number">
+          <label id="currency-label" for="amount"></label> 
+        </div>
+
+        <div class="results">
+          <div class="result-a"></div>
+          <div class="result-b"></div>
+        </div>
+
+        <div class="convert-button">
+          <button>Convert!</button>
+      </div>
+    </div>
 </body>
 </html>
